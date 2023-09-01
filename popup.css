@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.active {
+    background-color: #28a745;
+  }
+  
+  button.export {
+    background-color: #ffc107;
+  }
+  
+  button.export:hover {
+    background-color: #d39e00;
+  }
+  
+  button.reset {
+    background-color: #dc3545;
+  }
+  
+  button.reset:hover {
+    background-color: #b02a37;
+  }
+  
+  #resetHighlights {
+    margin-top: 15px;
+  }
+  
+  #resetHighlights:hover {
+    background-color: #ccc;
+  }
+  
